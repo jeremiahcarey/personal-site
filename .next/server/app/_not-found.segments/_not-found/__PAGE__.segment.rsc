@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:"static/chunks/500-fc3b64d9ff4a32a7.js"
+3:"static/chunks/837-e50ed20f2b953491.js"
+4:"static/chunks/app/page-2a48eaa4787bbc30.js"
+5:I[8500,["500","$2","837","$3","974","$4"],""]
+6:I[7121,[],""]
+7:I[4581,[],""]
+8:"static/chunks/app/layout-ee5216feeecad6ff.js"
+9:I[4317,["500","$2","177","$8"],"Analytics"]
+10:I[484,[],"OutletBoundary"]
+11:"$Sreact.suspense"
+14:"ViewportBoundary"
+15:I[484,[],"$14"]
+16:"MetadataBoundary"
+17:I[484,[],"$16"]
+18:I[6869,[],"IconMark"]
+:HL["/_next/static/css/6fd9faeb4318ef59.css","style"]
+b:X
+e:X
+e:C
+f:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],null,["$","$L10",null,{"children":["$","$11",null,{"name":"Next.MetadataOutlet","children":"$@12"}]}]]}],"p":"$@13","v":null,"s":"$b"}}]]
+c:[["children",{"s":"_not-found","h":96,"d":{"r":["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L7",null,{}]}]]}],"p":"$@d","v":"$e","s":"$b"},"c":"$Qf"}]]
+0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/6fd9faeb4318ef59.css","precedence":"next"}]],["$","html",null,{"lang":"en","className":"__variable_704693 __variable_4dc837 bg-background","children":["$","body",null,{"className":"font-serif antialiased","children":[["$","div",null,{"className":"mx-auto flex min-h-dvh w-full max-w-5xl flex-col px-6 md:px-10","children":[["$","header",null,{"className":"flex flex-wrap items-center justify-between gap-4 border-b py-6 print:hidden","children":[["$","a",null,{"href":"#main","className":"sr-only focus:not-sr-only focus:absolute focus:bg-background focus:p-2","children":"Skip to content"}],["$","$L5",null,{"href":"/","className":"font-mono text-sm tracking-tight text-foreground hover:text-primary","children":"Jeremiah Carey"}],["$","nav",null,{"aria-label":"Primary","children":["$","ul",null,{"className":"flex items-center gap-4 font-mono text-sm text-muted-foreground","children":[["$","li","/writing",{"children":["$","$L5",null,{"href":"/writing","className":"transition-colors hover:text-primary","children":"Writing"}]}],["$","li","/cv",{"children":["$","$L5",null,{"href":"/cv","className":"transition-colors hover:text-primary","children":"Résumé & CV"}]}],["$","li","/#contact",{"children":["$","$L5",null,{"href":"/#contact","className":"transition-colors hover:text-primary","children":"Contact"}]}]]}]}]]}],["$","main",null,{"id":"main","className":"flex-1","children":["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L7",null,{}]}]}],["$","footer",null,{"className":"flex flex-col gap-2 border-t py-8 font-mono text-xs text-muted-foreground md:flex-row md:items-center md:justify-between print:hidden","children":[["$","p",null,{"children":["© ",2026," ","Jeremiah Carey"]}],["$","p",null,{"children":["A work in progress, by ","Jeremiah","."]}]]}]]}],["$","$L9",null,{}]]}]}]]}],"p":"$@a","v":null,"s":"$b"},"c":"$Qc"},"h":{"r":["$","$1","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L15",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#f5f6f8"}],["$","meta","3",{"name":"color-scheme","content":"light"}]]}],["$","$L17",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$11",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Jeremiah Carey — Software Engineer & Philosopher"}],["$","meta","1",{"name":"description","content":"Jeremiah Carey is a frontend-focused software engineer at Omnicom with a PhD in philosophy. Writing on ethics, philosophy of religion, and philosophical theology."}],["$","link","2",{"rel":"icon","href":"/icon-light-32x32.png","media":"(prefers-color-scheme: light)"}],["$","link","3",{"rel":"icon","href":"/icon-dark-32x32.png","media":"(prefers-color-scheme: dark)"}],["$","link","4",{"rel":"icon","href":"/icon.svg","type":"image/svg+xml"}],["$","link","5",{"rel":"apple-touch-icon","href":"/apple-icon.png"}],["$","$L18","6",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@19","v":null,"s":"$b"}},"a":"$@1a","u":"$@1b","b":"gkAkTlPV5BTHJhdXP5kou"}
+12:null
+b:300
+1b:true
+b:C
+1a:0
+d:"$undefined"
+a:"$undefined"
+19:"$undefined"
+13:"$undefined"

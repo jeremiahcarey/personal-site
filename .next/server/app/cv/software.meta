@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/cv/layout,_N_T_/cv/software/layout,_N_T_/cv/software/page,_N_T_/cv/software"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/cv/software/__PAGE__"
+  ],
+  "prefetchHints": {
+    "hints": 64,
+    "slots": {
+      "children": {
+        "hints": 96,
+        "slots": {
+          "children": {
+            "hints": 96,
+            "slots": {
+              "children": {
+                "hints": 160,
+                "slots": null
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/f1e5039cdab7b66c752419932ac1799b5399bba14d6a228d16c830f394a157f3/$/cv/software",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/cv/software/page"
+    },
+    "isFallback": false
+  }
+}

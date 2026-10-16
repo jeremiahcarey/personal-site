@@ -1,0 +1,7 @@
+{
+  "/cv/academic/page": "app/cv/academic/page.js",
+  "/cv/page": "app/cv/page.js",
+  "/cv/software/page": "app/cv/software/page.js",
+  "/page": "app/page.js",
+  "/writing/page": "app/writing/page.js"
+}

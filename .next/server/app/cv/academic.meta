@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/cv/layout,_N_T_/cv/academic/layout,_N_T_/cv/academic/page,_N_T_/cv/academic"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/cv/academic/__PAGE__"
+  ],
+  "prefetchHints": {
+    "hints": 64,
+    "slots": {
+      "children": {
+        "hints": 96,
+        "slots": {
+          "children": {
+            "hints": 96,
+            "slots": {
+              "children": {
+                "hints": 160,
+                "slots": null
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/fa093c8e3b2336568eee543c9c50b5b6828677c6d2607e17779720d137f3e5af/$/cv/academic",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/cv/academic/page"
+    },
+    "isFallback": false
+  }
+}
