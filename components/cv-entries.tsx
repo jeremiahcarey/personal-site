@@ -1,4 +1,4 @@
-import type { CvEntry } from '@/lib/content'
+import type { CvEntry } from '@/lib/career'
 
 export function CvEntries({ entries }: { entries: CvEntry[] }) {
   return (
@@ -8,11 +8,11 @@ export function CvEntries({ entries }: { entries: CvEntry[] }) {
           key={`${entry.title}-${entry.org}`}
           className="grid gap-1 md:grid-cols-[1fr_auto] md:gap-x-6 print:break-inside-avoid"
         >
-          <h3 className="text-lg font-medium tracking-tight">
+          <h3 className="min-w-0 text-lg font-medium tracking-tight">
             {entry.title}
             {entry.org && <span className="text-muted-foreground">{', '}{entry.org}</span>}
           </h3>
-          {(entry.period || entry.location) && <p className="font-mono text-xs text-muted-foreground md:row-start-1 md:col-start-2 md:pt-1.5 md:text-right">
+          {(entry.period || entry.location) && <p className="font-mono text-xs text-muted-foreground md:max-w-48 md:row-start-1 md:col-start-2 md:pt-1.5 md:text-right">
             {entry.period}
             {entry.location && (
               <>

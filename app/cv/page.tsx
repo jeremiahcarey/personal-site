@@ -10,14 +10,16 @@ export const metadata: Metadata = {
 const documents = [
   {
     title: 'Software engineering résumé',
-    description: 'My work in software, with a focus on frontend development and my current role at Omnicom.',
+    description: 'Frontend engineering and AI-native interfaces at Annalect (Omnicom), technical skills, and independent projects.',
     href: '/cv/software',
+    pdf: '/resume.pdf',
     label: 'View résumé',
   },
   {
     title: 'Academic CV',
-    description: 'My background in philosophy: doctoral education, teaching experience, and ongoing writing in ethics, philosophy of religion, and philosophical theology.',
+    description: 'My background in philosophy: education, academic appointments, publications, courses, talks, and honors.',
     href: '/cv/academic',
+    pdf: '/cv.pdf',
     label: 'View academic CV',
   },
 ]
@@ -36,9 +38,14 @@ export default function CvPage() {
           <section key={document.href} className="flex flex-col gap-5 border-t pt-6">
             <h2 className="text-2xl font-medium tracking-tight">{document.title}</h2>
             <p className="text-pretty leading-relaxed text-muted-foreground">{document.description}</p>
-            <Link href={document.href} className="mt-auto self-start font-mono text-sm text-primary underline-offset-4 hover:underline">
-              {document.label} →
-            </Link>
+            <div className="mt-auto flex flex-wrap gap-x-6 gap-y-3 font-mono text-sm text-primary">
+              <Link href={document.href} className="underline-offset-4 hover:underline">
+                {document.label} →
+              </Link>
+              <a href={document.pdf} download className="underline-offset-4 hover:underline" aria-label={`Download ${document.title} (PDF)`}>
+                Download PDF ↓
+              </a>
+            </div>
           </section>
         ))}
       </div>

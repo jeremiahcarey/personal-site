@@ -26,11 +26,11 @@ export const metadata: Metadata = {
   description: `${profile.name} is a frontend-focused software engineer at Omnicom with a PhD in philosophy. Writing on ethics, philosophy of religion, and philosophical theology.`,
   icons: {
     icon: [
-      { url: '/icon-light-32x32.png', media: '(prefers-color-scheme: light)' },
-      { url: '/icon-dark-32x32.png', media: '(prefers-color-scheme: dark)' },
-      { url: '/icon.svg', type: 'image/svg+xml' },
+      { url: '/favicon.ico', sizes: '16x16 32x32 48x48' },
+      { url: '/icon-32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/icon.svg', sizes: 'any', type: 'image/svg+xml' },
     ],
-    apple: '/apple-icon.png',
+    apple: { url: '/apple-icon.png', sizes: '180x180', type: 'image/png' },
   },
 }
 
