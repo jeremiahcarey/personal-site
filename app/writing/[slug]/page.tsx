@@ -29,11 +29,11 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
     <article className="grid gap-10 py-16 md:grid-cols-[10rem_1fr] md:py-20">
       <aside className="flex flex-col gap-6 font-mono text-xs text-muted-foreground">
         <Link
-          href="/writing"
+          href={writing.field === 'Engineering' ? '/engineering' : '/philosophy'}
           className="inline-flex items-center gap-1.5 self-start transition-colors hover:text-primary"
         >
           <ArrowLeft className="size-3.5" aria-hidden="true" />
-          All writing
+          {writing.field === 'Engineering' ? 'Engineering' : 'Philosophical Writing'}
         </Link>
         <dl className="flex flex-row flex-wrap gap-x-6 gap-y-3 md:flex-col">
           <div className="flex flex-col gap-0.5">

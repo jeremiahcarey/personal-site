@@ -16,16 +16,21 @@ export function Practices() {
                 <li key={item}>{item}</li>
               ))}
             </ul>
-            <Link
-              href={practice.cta.href}
-              className="group inline-flex items-center gap-2 self-start font-mono text-sm text-primary underline-offset-4 hover:underline"
-            >
-              {practice.cta.label}
-              <ArrowRight
-                className="size-4 transition-transform group-hover:translate-x-0.5"
-                aria-hidden="true"
-              />
-            </Link>
+            <div className="mt-auto flex flex-col gap-3">
+              {practice.links.map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className="group inline-flex items-center gap-2 self-start font-mono text-sm text-primary underline-offset-4 hover:underline"
+                >
+                  {link.label}
+                  <ArrowRight
+                    className="size-4 transition-transform group-hover:translate-x-0.5"
+                    aria-hidden="true"
+                  />
+                </Link>
+              ))}
+            </div>
           </article>
         ))}
       </div>

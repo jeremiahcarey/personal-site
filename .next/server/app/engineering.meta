@@ -1,0 +1,34 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/engineering/layout,_N_T_/engineering/page,_N_T_/engineering"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/engineering/__PAGE__"
+  ],
+  "prefetchHints": {
+    "hints": 64,
+    "slots": {
+      "children": {
+        "hints": 96,
+        "slots": {
+          "children": {
+            "hints": 160,
+            "slots": null
+          }
+        }
+      }
+    }
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/1683a7581392d5ad8ae5a58772c4110e509236277797f1e3cf8f5214c4beed3f/$/engineering",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/engineering/page"
+    },
+    "isFallback": false
+  }
+}

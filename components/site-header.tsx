@@ -2,7 +2,8 @@ import Link from 'next/link'
 import { profile } from '@/lib/content'
 
 const nav = [
-  { label: 'Writing', href: '/writing' },
+  { label: 'Engineering', href: '/engineering' },
+  { label: 'Philosophical Writing', href: '/philosophy' },
   { label: 'Résumé & CV', href: '/cv' },
   { label: 'Contact', href: '/#contact' },
 ]
@@ -20,7 +21,7 @@ export function SiteHeader() {
         {profile.name}
       </Link>
       <nav aria-label="Primary">
-        <ul className="flex items-center gap-4 font-mono text-sm text-muted-foreground">
+        <ul className="flex flex-wrap items-center gap-x-4 gap-y-2 font-mono text-sm text-muted-foreground">
           {nav.map((item) => (
             <li key={item.href}>
               <Link href={item.href} className="transition-colors hover:text-primary">

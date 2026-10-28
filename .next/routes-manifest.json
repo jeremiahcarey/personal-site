@@ -92,6 +92,18 @@
       "namedRegex": "^/cv/software(?:/)?$"
     },
     {
+      "page": "/engineering",
+      "regex": "^/engineering(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/engineering(?:/)?$"
+    },
+    {
+      "page": "/philosophy",
+      "regex": "^/philosophy(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/philosophy(?:/)?$"
+    },
+    {
       "page": "/writing",
       "regex": "^/writing(?:/)?$",
       "routeKeys": {},

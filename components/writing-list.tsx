@@ -1,9 +1,9 @@
 import Link from 'next/link'
 import { formatDate, type Writing } from '@/lib/content'
 
-export function WritingList({ items }: { items: Writing[] }) {
+export function WritingList({ items, emptyMessage = 'Papers and essays will be collected here soon.' }: { items: Writing[]; emptyMessage?: string }) {
   if (items.length === 0) {
-    return <p className="text-muted-foreground">I’m bringing my writing together here. Check back for pieces on ethics, philosophy of religion, and philosophical theology, alongside notes on software development.</p>
+    return <p className="text-muted-foreground">{emptyMessage}</p>
   }
 
   return (
@@ -11,7 +11,7 @@ export function WritingList({ items }: { items: Writing[] }) {
       {items.map((item) => (
         <li key={item.slug} className="border-b last:border-b-0">
           <Link
-            href={`/writing/${item.slug}`}
+            href={item.href ?? `/writing/${item.slug}`}
             className="group grid gap-2 py-6 md:grid-cols-[6.5rem_1fr] md:gap-6"
           >
             <time dateTime={item.date} className="font-mono text-xs text-muted-foreground md:pt-1.5">

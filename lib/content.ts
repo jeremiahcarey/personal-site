@@ -17,14 +17,20 @@ export const practices = [
     summary:
       'My work at Omnicom focuses on frontend development: the part of software people see and interact with. This is where I’ll share projects, notes, and things I learn in the course of building for the web.',
     focus: ['Frontend development', 'Web interfaces', 'Software engineering'],
-    cta: { label: 'View my engineering résumé', href: '/cv/software' },
+    links: [
+      { label: 'Explore engineering', href: '/engineering' },
+      { label: 'Software engineering résumé', href: '/cv/software' },
+    ],
   },
   {
-    field: 'Philosophy',
+    field: 'Philosophical Writing',
     summary:
       'Philosophy remains part of my life after the move from teaching to software. I continue to write on ethics, the philosophy of religion, and philosophical theology. This site will bring that writing together in one place.',
     focus: ['Ethics', 'Philosophy of religion', 'Philosophical theology'],
-    cta: { label: 'Explore my writing', href: '/writing?field=philosophy' },
+    links: [
+      { label: 'Explore philosophical writing', href: '/philosophy' },
+      { label: 'Academic CV', href: '/cv/academic' },
+    ],
   },
 ]
 
@@ -44,6 +50,7 @@ export type Writing = {
   kind: Kind
   summary: string
   venue?: string
+  href?: string
   body: Block[]
 }
 

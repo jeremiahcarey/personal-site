@@ -1,10 +1,12 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
   "/_global-error/page": "app/_global-error/page.js",
-  "/page": "app/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
   "/cv/academic/page": "app/cv/academic/page.js",
   "/cv/page": "app/cv/page.js",
   "/cv/software/page": "app/cv/software/page.js",
+  "/engineering/page": "app/engineering/page.js",
+  "/page": "app/page.js",
+  "/philosophy/page": "app/philosophy/page.js",
   "/writing/[slug]/page": "app/writing/[slug]/page.js",
   "/writing/page": "app/writing/page.js"
 }
