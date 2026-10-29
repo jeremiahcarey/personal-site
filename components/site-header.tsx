@@ -3,7 +3,7 @@ import { profile } from '@/lib/content'
 
 const nav = [
   { label: 'Engineering', href: '/engineering' },
-  { label: 'Philosophical Writing', href: '/philosophy' },
+  { label: 'Philosophy', href: '/philosophy' },
   { label: 'Résumé & CV', href: '/cv' },
   { label: 'Contact', href: '/#contact' },
 ]
