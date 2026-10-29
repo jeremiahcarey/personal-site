@@ -14,7 +14,7 @@ const projects: { name: string; href: string; description: string; status?: stri
   {
     name: 'Refolio',
     href: 'https://github.com/jeremiahcarey/refolio',
-    description: 'View the project on GitHub.',
+    description: 'Refolio is an open-source tool that turns PDFs of papers or books into clean EPUBs for easier reading on ereaders and better listening in text-to-speech apps such as ElevenReader, VoiceDream, Speechify, etc.',
   },
   ...resume.projects,
 ]
