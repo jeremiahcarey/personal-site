@@ -10,6 +10,15 @@ export const metadata: Metadata = {
   description: 'Side projects and software engineering work by Jeremiah Carey.',
 }
 
+const projects: { name: string; href: string; description: string; status?: string }[] = [
+  {
+    name: 'Refolio',
+    href: 'https://github.com/jeremiahcarey/refolio',
+    description: 'View the project on GitHub.',
+  },
+  ...resume.projects,
+]
+
 export default function EngineeringPage() {
   const notes = getSortedWritings().filter((item) => item.field === 'Engineering')
 
@@ -26,7 +35,7 @@ export default function EngineeringPage() {
       </header>
       <MarginSection label="Side projects" id="projects">
         <ul className="flex flex-col gap-10">
-          {resume.projects.map((project) => (
+          {projects.map((project) => (
             <li key={project.name} className="flex flex-col gap-3">
               <h2 className="text-2xl font-medium tracking-tight">
                 <a href={project.href} className="text-primary underline-offset-4 hover:underline">{project.name} ↗</a>
