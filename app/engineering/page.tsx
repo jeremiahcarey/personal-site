@@ -27,7 +27,7 @@ export default function EngineeringPage() {
       <header className="flex max-w-2xl flex-col gap-6 py-16 md:py-20">
         <h1 className="text-4xl font-medium tracking-tight md:text-5xl">Engineering</h1>
         <p className="text-pretty text-lg leading-relaxed">
-          I build web interfaces at Annalect (Omnicom). Here are my side projects and experiments in software.
+          I build software at Annalect (Omnicom), focused mainly on web interfaces. Here are my side projects and experiments in software.
         </p>
         <Link href="/cv/software" className="self-start font-mono text-sm text-primary underline-offset-4 hover:underline">
           Software engineering résumé →

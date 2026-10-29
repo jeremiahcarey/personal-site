@@ -6,7 +6,7 @@ export const profile = {
   headline: 'writes software and philosophy.',
   intro:
     'I’m a software engineer at Omnicom, focused on frontend development. Before moving into software, I earned a PhD in philosophy and taught full time for three years. I continue to write on ethics, the philosophy of religion, and philosophical theology.',
-  now: 'Frontend development at Omnicom.',
+  now: 'Web development at Omnicom.',
   site: 'Software, philosophy, and a place to collect my writing.',
   links: [] as { label: string; href: string }[],
 }
