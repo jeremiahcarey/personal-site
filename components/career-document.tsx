@@ -81,9 +81,8 @@ export function CareerDocument({ kind }: { kind: 'software' | 'academic' }) {
           <MarginSection label="References" id="references">
             <ul className="flex flex-col gap-4">
               {academicCv.references.map((reference) => (
-                <li key={reference.email} className="flex flex-wrap gap-x-4 gap-y-1">
+                <li key={reference.name}>
                   <span>{reference.name}</span>
-                  <a href={`mailto:${reference.email}`} className="break-all text-primary hover:underline">{reference.email}</a>
                 </li>
               ))}
             </ul>

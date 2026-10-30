@@ -30,6 +30,17 @@ export default function PhilosophyPage() {
           Academic CV →
         </Link>
       </header>
+      <MarginSection label="Books under contract" id="books-under-contract">
+        <ol className="flex flex-col gap-8">
+          {academicCv.booksUnderContract.map((book) => (
+            <li key={book.title} className="flex flex-col gap-3">
+              <h3 className="text-xl font-medium tracking-tight text-pretty">{book.title}</h3>
+              <p className="leading-relaxed text-muted-foreground">{book.contributors}</p>
+              <p className="leading-relaxed text-muted-foreground">{book.status}</p>
+            </li>
+          ))}
+        </ol>
+      </MarginSection>
       <MarginSection label="Publications" id="publications">
         <ol className="flex flex-col gap-8">
           {academicCv.publications.map((publication) => (
