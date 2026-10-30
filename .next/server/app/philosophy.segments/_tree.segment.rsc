@@ -3,4 +3,4 @@
 :HL["/_next/static/media/7c42b85337e0c4bb-s.p.012bmydply3go.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 2:[["children",{"s":"__PAGE__","h":160}]]
 1:[["children",{"s":"philosophy","h":96,"c":"$Q2"}]]
-0:{"b":"hhc0Gxtcl1Xl6x01qjxIY","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"jotWOKIfchqwJ3xw3Llrq","t":{"t":{"s":"","h":80,"c":"$Q1"}}}

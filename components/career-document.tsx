@@ -57,6 +57,15 @@ export function CareerDocument({ kind }: { kind: 'software' | 'academic' }) {
           <MarginSection label="Education" id="education"><CvEntries entries={education} /></MarginSection>
           <MarginSection label="Academic & professional employment" id="employment"><CvEntries entries={academicCv.employment} /></MarginSection>
           <MarginSection label="Areas of specialization & competence" id="areas"><DetailGroups groups={academicCv.areas} /></MarginSection>
+          <MarginSection label="Books under contract" id="books-under-contract">
+            <ol className="flex flex-col gap-5 leading-relaxed">
+              {academicCv.booksUnderContract.map((book) => (
+                <li key={book.title} className="text-pretty print:break-inside-avoid">
+                  {book.contributors} <span className="italic">{book.title}</span> {book.status}
+                </li>
+              ))}
+            </ol>
+          </MarginSection>
           <MarginSection label="Publications" id="publications">
             <ol className="flex flex-col gap-5 leading-relaxed">
               {academicCv.publications.map((publication) => (

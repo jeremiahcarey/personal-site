@@ -95,6 +95,13 @@ export const academicCv = {
     { label: 'Specialization', items: 'Philosophy of Religion, Ethics, Moral Psychology' },
     { label: 'Competence', items: 'Comparative Philosophy and Religion, and History of Philosophy' },
   ],
+  booksUnderContract: [
+    {
+      contributors: 'Carey, Jeremiah (ed.) and Peter Murray (ed., trans.).',
+      title: 'A Radical Orthodoxy: Writings on Revolutionary Christianity by Fr. Valentin Sventsitskii, 1905–1919.',
+      status: 'Under contract with Lever Press.',
+    },
+  ],
   publications: [
     { title: 'Review of Daniel Soars, The World and God Are Not-Two: A Hindu–Christian Conversation (Fordham University Press, 2023).', venue: 'Agatheos (forthcoming).' },
     { title: '“On trying to be an Orthodox Philosopher,”', venue: 'in Turning East II: Contemporary Philosophers and the Ancient Christian Faith, edited by Rico Vitz (St Vladimir’s Seminary Press, 2025).', href: 'https://svspress.com/turning-east-ii-contemporary-philosophers-and-the-ancient-christian-faith/', linkLabel: 'View book at publisher' },
