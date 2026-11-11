@@ -111,7 +111,7 @@ export const academicCv = {
     },
   ],
   publications: [
-    { title: 'Review of Daniel Soars, The World and God Are Not-Two: A Hindu–Christian Conversation (Fordham University Press, 2023).', venue: 'Agatheos (forthcoming).' },
+    { title: 'Review of Daniel Soars, The World and God Are Not-Two: A Hindu–Christian Conversation (Fordham University Press, 2023).', venue: 'Agatheos 3:2 (2026).', href: 'https://publicera.kb.se/aejpr', linkLabel: 'View journal' },
     { title: '“On trying to be an Orthodox Philosopher,”', venue: 'in Turning East II: Contemporary Philosophers and the Ancient Christian Faith, edited by Rico Vitz (St Vladimir’s Seminary Press, 2025).', href: 'https://svspress.com/turning-east-ii-contemporary-philosophers-and-the-ancient-christian-faith/', linkLabel: 'View book at publisher' },
     { title: '“Is ‘orthodox panentheism’ unorthodox? A response to James Dominic Rooney,”', venue: 'Religious Studies 61:2 (2025): 440–447.', href: 'https://resolve.cambridge.org/core/journals/religious-studies/article/is-orthodox-panentheism-unorthodox-a-response-to-james-dominic-rooney/9659297A3F7010C449147A47EFC695AA', linkLabel: 'View at publisher' },
     { title: '“On Orthodox panentheism,”', venue: 'Religious Studies 60:2 (2024): 269–275.', href: 'https://www.cambridge.org/core/journals/religious-studies/article/abs/on-orthodox-panentheism/ACA52EB9BEA631F83AA8BA0D0A47499F', linkLabel: 'View at publisher' },
