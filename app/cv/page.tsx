@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 const documents = [
   {
     title: 'Software engineering résumé',
-    description: 'Frontend engineering and AI-native interfaces at Annalect (Omnicom), technical skills, and independent projects.',
+    description: 'Frontend engineering and AI-native interfaces at Endava for Omnicom, technical skills, and independent projects.',
     href: '/cv/software',
     pdf: '/resume.pdf',
     label: 'View résumé',

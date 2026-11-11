@@ -4,6 +4,7 @@ export type CvEntry = {
   org?: string
   period?: string
   location?: string
+  description?: string
   points?: string[]
 }
 
@@ -39,10 +40,17 @@ export const resume = {
   summary: 'Frontend-focused software engineer building production web applications, most recently AI-native interfaces: an in-platform LLM-powered app builder with streaming chat, agent clarifying-question flows, and live previews of generated apps. Comfortable across the spectrum, from extending a large legacy frontend platform to owning greenfield features across the stack. Former philosophy PhD and university instructor who brings rigorous analytical thinking and clear written communication to engineering work.',
   experience: [
     {
+      title: 'Senior Developer',
+      org: 'Endava — Omnicom client engagement',
+      period: 'July 2026–Present',
+      location: 'Remote',
+    },
+    {
       title: 'Software Engineer',
       org: 'Annalect (Omnicom)',
-      period: 'May 2023–Present',
+      period: 'May 2023–June 2026',
       location: 'New York, NY (Remote)',
+      description: 'Transferred to Endava to continue the same Omnicom platform work. Selected achievements across both roles:',
       points: [
         'Frontend engineer on an AI app builder that lets non-technical users generate and deploy custom web apps through chat with an LLM agent; built the human-in-the-loop flow that lets the agent pause and ask users clarifying questions, and contributed to the streaming chat UX and template/tutorial onboarding.',
         'Led the frontend side of hardening the app builder’s untested prototype for production: broke up its monolithic generation logic and main chat view across six small, independently reviewable PRs and raised frontend unit test coverage from 0% to over 75%, all without pausing feature delivery.',

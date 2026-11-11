@@ -21,6 +21,9 @@ export function CvEntries({ entries }: { entries: CvEntry[] }) {
               </>
             )}
           </p>}
+          {entry.description && (
+            <p className="pt-2 text-pretty leading-relaxed md:col-span-2">{entry.description}</p>
+          )}
           {entry.points && entry.points.length > 0 && (
             <ul className="flex list-disc flex-col gap-1 pt-2 pl-5 leading-relaxed marker:text-muted-foreground md:col-span-2">
               {entry.points.map((point) => (
