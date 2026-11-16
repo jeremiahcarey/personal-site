@@ -24,7 +24,11 @@ export default function PhilosophyPage() {
           PDFs of any of these works are available by request.{' '}
           <a href={`mailto:${contact.email}?subject=Paper%20PDF%20request`} className="text-primary underline underline-offset-4">
             Email me
-          </a>{' '}for a copy.
+          </a>{' '}for a copy. For shorter, occasional pieces, see the{' '}
+          <Link href="/blog" className="text-primary underline underline-offset-4">
+            blog
+          </Link>
+          .
         </p>
         <Link href="/cv/academic" className="self-start font-mono text-sm text-primary underline-offset-4 hover:underline">
           Academic CV →

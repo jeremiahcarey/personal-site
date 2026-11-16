@@ -3,6 +3,7 @@ export const profile = {
   name: 'Jeremiah Carey',
   location: '',
   email: '',
+  substack: 'https://onancientpaths.substack.com',
   headline: 'writes software and philosophy.',
   intro:
     'I’m a software engineer at Omnicom, focused on frontend development. Before moving into software, I earned a PhD in philosophy and taught full time for three years. I continue to write on ethics, the philosophy of religion, and philosophical theology.',

@@ -4,6 +4,7 @@ import { profile } from '@/lib/content'
 const nav = [
   { label: 'Engineering', href: '/engineering' },
   { label: 'Philosophy', href: '/philosophy' },
+  { label: 'Blog', href: '/blog' },
   { label: 'Résumé & CV', href: '/cv' },
   { label: 'Contact', href: '/#contact' },
 ]
